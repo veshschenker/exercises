@@ -1,0 +1,51 @@
+body{
+    margin: 0px
+}
+
+#page-wrapper{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+}
+
+#header{
+    height: 50px;
+    width:100%;
+    background-color: lightgrey;
+    font-family: Georgia;
+    font-size: 32pt;
+}
+
+#main-menu{
+    height: 30px;
+    width: 100%;
+    background-color:lightskyblue;
+}
+
+#container{
+    width: 100%;
+    flex: 1 1 auto;
+    background-color: yellow;
+
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#footer{
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    background-color:lightgray;
+    font-family: Arial;
+    font-size: 12pt;
+}
+
+#side-menu{
+    width: 100px;
+    background-color: lightblue;
+}
+
+#content{
+    flex-grow: 1;
+
+}

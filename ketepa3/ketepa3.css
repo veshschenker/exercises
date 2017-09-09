@@ -1,0 +1,55 @@
+body{
+    background-color: lightgreen;
+}
+
+#container{
+    display: flex;
+    flex-flow:column;
+    height: 180px;
+    width:150px;
+    border-radius: 15px;
+    margin:20px;    
+}
+
+#top{
+    display: flex;
+    height: 50%;
+    padding-top: 15px;  
+}
+
+img{
+    margin:auto;
+    max-height: 70%;
+
+}
+
+#bottom{
+    height: 50%;
+    font-family: Georgia;
+    font-size: 10pt;
+    text-align: center;
+    font-style: italic;
+}
+
+#text-container{
+    background-color: white;
+    height: 180px;
+    width: 150px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: -200px;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+}
+
+#text{
+    transform: rotate(45deg);
+    width: 250px;
+    line-height: 2em;
+    top: -20px;
+    left: -40   px;
+    position: relative;
+    color: lightgray;
+    font-family: Arial;
+}

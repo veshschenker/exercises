@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-flow: row;
+    border:1px black solid;
+}
+
+.item{
+    background-color:lightcoral;
+    margin: 5px;
+    width: 50px;
+    font-size: 24pt;
+
+}
+
+.subitem{
+    font-size: 16pt;
+    background-color: sandybrown;
+    width: 20px;
+    height: 20px;
+    border: 2px solid blue;
+    ;
+
+}
+
+.item:first-child{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+#head {
+    border: 1px solid orangered;
+    background-color: lightsalmon;
+}
+
+#womb {
+    display: flex;
+    flex-flow: row-reverse;
+    flex-wrap: wrap-reverse;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#feet {
+    font-size: 10pt;
+    background-color: lightskyblue;
+}
+.item:nth-child(2) {
+    width: auto;
+}
